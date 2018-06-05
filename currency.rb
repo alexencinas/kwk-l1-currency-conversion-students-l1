@@ -35,7 +35,7 @@ end
 usd_to_aud
 
 def jpy_to_usd
-  jpy = get.chomp.to_i
+  jpy = gets.chomp.to_i
   dollars = (jpy)*0.0091
   puts dollars
 end 
