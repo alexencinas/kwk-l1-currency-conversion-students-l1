@@ -43,5 +43,12 @@ jpy_to_usd
 
 def gbp_to_usd
   gbp = gets.chomp.to_i
-  dollars = (gbp)*
+  dollars = (gbp)*1.34
+  puts dollars
+end 
+gbp_to_usd
+
+def aud_to_usd
+  aud = get.chomp.to_i
+  dollars
   
