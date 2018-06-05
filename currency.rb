@@ -35,5 +35,6 @@ end
 usd_to_aud
 
 def jpy_to_usd
-  jpy = get.chomp.
+  jpy = get.chomp.to_i
+  
   
