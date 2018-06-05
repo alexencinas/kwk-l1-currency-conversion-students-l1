@@ -15,7 +15,7 @@ eur_to_usd
 
 def usd_to_yen
   dollars = gets.chomp.to_i
-  yen = (dollars)*108.86
+  yen = (dollars)*109.83
   puts euros
 end
 usd_to_yen
@@ -35,4 +35,5 @@ end
 usd_to_aud
 
 def jpy_to_usd
+  jpy = get.chomp.
   
