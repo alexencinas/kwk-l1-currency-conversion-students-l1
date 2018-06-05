@@ -7,5 +7,5 @@ usd_to_eur
 
 def eur_to_usd
   euros = gets.chomp
-  dollars
+  dollars = (gets.chomp)*
 end
