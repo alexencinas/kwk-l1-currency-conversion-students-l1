@@ -22,4 +22,11 @@ usd_to_yen
 
 def usd_to_gbp
   dollars = gets.chomp.to_i
-  pounds = (dollars)*
+  pounds = (dollars)*0.75
+  puts pounds
+end
+usd_to_gbp
+
+def usd_to_aud
+  dollars = gets.chomp.to_i
+  
