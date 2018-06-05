@@ -12,3 +12,5 @@ def eur_to_usd
   puts dollars
 end
 eur_to_usd
+
+def usd_to_yen
