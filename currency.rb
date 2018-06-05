@@ -51,4 +51,7 @@ gbp_to_usd
 def aud_to_usd
   aud = get.chomp.to_i
   dollars = (aud)*0.76
+  puts dollars
+end
+aud_to_usd
   
