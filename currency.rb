@@ -14,3 +14,5 @@ end
 eur_to_usd
 
 def usd_to_yen
+  dollars = gets.chomp.to_i
+  yen = (dollars)*108.
